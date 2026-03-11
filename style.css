@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*? our-past-success-stories css starts here */
+.our-past-success-stories {
+  background-color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+.our-past-success-stories .col-lg-4 .main-heading {
+  color: #004f8e;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 39px */
+}
+.our-past-success-stories .col-lg-4 .main-heading .sub-heading {
+  color: #3ea4c1;
+}
+.our-past-success-stories .col-lg-8 .main-description {
+  color: #000;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  padding-bottom: 30px;
+}
+.our-past-success-stories .button-prev,
+.button-next {
+  margin-top: 40px;
+  width: 53px;
+  height: 53px;
+  aspect-ratio: 1/1;
+  border-radius: 53px;
+  background: linear-gradient(97deg, #004f8e 1.88%, #3ea4c1 100%);
+}
+.our-past-success-stories .button-next svg {
+  transform: rotate(180deg);
+}
+
+.our-past-success-stories .card {
+  min-height: 335px;
+  max-width: 356px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow:
+    0 0 4px 0 rgba(0, 0, 0, 0.04),
+    0 8px 16px 0 rgba(0, 0, 0, 0.08);
+}
+
+.card .card-heading {
+  display: flex;
+  position: relative;
+}
+
+.card .card-heading .svg-shape {
+  position: relative;
+  width: 134px;
+  height: 134px;
+}
+
+.card .card-heading .profile-img {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 10px;
+  background: url("./profile.png") center/cover no-repeat;
+  z-index: 2;
+}
+
+.card .card-heading .card-title1 {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px; /* 115% */
+}
+
+.our-past-success-stories .swiper-slide .card {
+  width: 100%;
+  max-width: 356px;
+}
+.our-past-success-stories .swiper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.our-past-success-stories .swiper-slide {
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.our-past-success-stories .swiper-slide .card {
+  width: 100%;
+  max-width: 356px;
+}
+.our-past-success-stories .card .card-heading::after {
+  content: "";
+  display: block;
+  width: 80%; /* length of the border */
+  height: 1px;
+  background-color: #cecece;
+  margin: 0 auto; /* center horizontally */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.our-past-success-stories .card .card-body .card-text {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px; /* 164.286% */
+  padding: 11px 11px;
+}
+
+/*? our-past-success-stories css ends here */
